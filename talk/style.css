@@ -1,0 +1,57 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color:forestgreen;
+}
+
+.container {
+    display: flex;
+}
+
+.balloon-container {
+    flex-grow: 2;
+}
+
+.talk-self {
+    position:relative;
+    background: #e0edff;
+    min-width: 120px;
+    max-width: 100%;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.talk-self::before {
+    content: "";
+    position:absolute;
+    display: inline-block;
+    top: 50%;
+    left: 99.5%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid #e0edff;
+}
+
+.talk-others {
+    position:relative;
+    background: #e0edff;
+    min-width: 120px;
+    max-width: 100%;
+    margin: 1.5em 15px 1.5em 0;
+    padding: 7px 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.talk-others::before {
+    content: "";
+    position:absolute;
+    display: inline-block;
+    top: 50%;
+    left: 25%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #e0edff;
+}
