@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item {
+    background-color: #8B52A1;
+
+    /*　テキスト横センタリング */
+    text-align: center;
+
+    /* テキスト縦センタリング */
+    height: 100px;
+    line-height: 100px;
+    margin: 5px;
+
+    /* font指定 */
+    font-family: "Hiragino Sans","Helvetica Neue", "Hiragino Kaku Gothic ProN",  "Helvetica", "sans-serif";
+    font-size: 2em;
+    color: #ffffff;
+}
+
+
