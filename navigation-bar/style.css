@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 8px 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: "Hiragino Sans", "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Helvetica", "sans-serif";
+    font-size: 1.5em;
+}
+
+.nav-item:nth-child(odd) {
+    width: 100%;
+    background-color: #f9e3b7;
+}
+
+.nav-item:nth-child(even) {
+    width: 100%;
+    background-color: #bcffd9;
+}
