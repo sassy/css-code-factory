@@ -1,0 +1,30 @@
+.container {
+    background-color: bisque;
+}
+
+#box0 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 254, 195);
+    margin: 10px;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(188, 188, 239);
+    padding: 20px;
+    border: 10px solid black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 213, 194);
+    padding: 20px;
+    border: 10px solid black;
+    margin: 10px;
+    box-sizing: content-box;
+}
