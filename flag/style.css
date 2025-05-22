@@ -1,0 +1,53 @@
+#japan {
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #000;
+    position: relative;
+    margin: 10px;
+}
+
+#japan::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ff0000;
+}
+
+#france {
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border: 2px solid #000;
+    position: relative;
+    margin: 10px;
+}
+
+#france::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(200px / 3);
+    height: 100%;
+    background-color: #0055a4;
+}
+
+#france::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(200px / 3);
+    height: 100%;
+    background-color: #ff0000;
+}
