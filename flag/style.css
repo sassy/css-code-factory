@@ -1,5 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 #japan {
-    float: left;
     width: 200px;
     height: 150px;
     background-color: #fff;
@@ -21,7 +25,6 @@
 }
 
 #france {
-    float: left;
     width: 200px;
     height: 150px;
     background-color: #fff;
