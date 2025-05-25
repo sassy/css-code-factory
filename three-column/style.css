@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: antiquewhite;
+}
+
+.item {
+    border: 2px solid #c22;
+    border-radius: 4px;
+    background-color: aqua;
+}
