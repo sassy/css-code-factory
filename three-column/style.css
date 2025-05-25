@@ -2,11 +2,12 @@
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 100px);
     background-color: antiquewhite;
 }
 
 .item {
     border: 2px solid #c22;
     border-radius: 4px;
-    background-color: aqua;
+    background-color: #fee;
 }
