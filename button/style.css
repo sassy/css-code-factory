@@ -1,0 +1,16 @@
+.button {
+    width: 120px;
+    height: 60px;
+    margin: 10px auto;
+    background-color: #6c79ed;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    box-shadow: 3px 3px #cccccc;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px #cccccc;
+}
