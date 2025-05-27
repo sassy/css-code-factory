@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid #f99;
+    border-right: 60px solid #7f5;
+    border-left: 60px solid #54f;
+}
+
+#part1 {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #f99;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    transform: rotate(35deg);
+}
+
+#part2 {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid #f99;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    transform: rotate(-70deg);
+}
